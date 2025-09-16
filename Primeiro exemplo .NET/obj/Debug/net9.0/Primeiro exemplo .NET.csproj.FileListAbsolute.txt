@@ -1,0 +1,14 @@
+D:\Programação\DIO\bootcamp_AKAD-Fullstack_Developer\Primeiro exemplo .NET\bin\Debug\net9.0\Primeiro exemplo .NET.exe
+D:\Programação\DIO\bootcamp_AKAD-Fullstack_Developer\Primeiro exemplo .NET\bin\Debug\net9.0\Primeiro exemplo .NET.deps.json
+D:\Programação\DIO\bootcamp_AKAD-Fullstack_Developer\Primeiro exemplo .NET\bin\Debug\net9.0\Primeiro exemplo .NET.runtimeconfig.json
+D:\Programação\DIO\bootcamp_AKAD-Fullstack_Developer\Primeiro exemplo .NET\bin\Debug\net9.0\Primeiro exemplo .NET.dll
+D:\Programação\DIO\bootcamp_AKAD-Fullstack_Developer\Primeiro exemplo .NET\bin\Debug\net9.0\Primeiro exemplo .NET.pdb
+D:\Programação\DIO\bootcamp_AKAD-Fullstack_Developer\Primeiro exemplo .NET\obj\Debug\net9.0\Primeiro exemplo .NET.GeneratedMSBuildEditorConfig.editorconfig
+D:\Programação\DIO\bootcamp_AKAD-Fullstack_Developer\Primeiro exemplo .NET\obj\Debug\net9.0\Primeiro exemplo .NET.AssemblyInfoInputs.cache
+D:\Programação\DIO\bootcamp_AKAD-Fullstack_Developer\Primeiro exemplo .NET\obj\Debug\net9.0\Primeiro exemplo .NET.AssemblyInfo.cs
+D:\Programação\DIO\bootcamp_AKAD-Fullstack_Developer\Primeiro exemplo .NET\obj\Debug\net9.0\Primeiro exemplo .NET.csproj.CoreCompileInputs.cache
+D:\Programação\DIO\bootcamp_AKAD-Fullstack_Developer\Primeiro exemplo .NET\obj\Debug\net9.0\Primeiro exemplo .NET.dll
+D:\Programação\DIO\bootcamp_AKAD-Fullstack_Developer\Primeiro exemplo .NET\obj\Debug\net9.0\refint\Primeiro exemplo .NET.dll
+D:\Programação\DIO\bootcamp_AKAD-Fullstack_Developer\Primeiro exemplo .NET\obj\Debug\net9.0\Primeiro exemplo .NET.pdb
+D:\Programação\DIO\bootcamp_AKAD-Fullstack_Developer\Primeiro exemplo .NET\obj\Debug\net9.0\Primeiro exemplo .NET.genruntimeconfig.cache
+D:\Programação\DIO\bootcamp_AKAD-Fullstack_Developer\Primeiro exemplo .NET\obj\Debug\net9.0\ref\Primeiro exemplo .NET.dll

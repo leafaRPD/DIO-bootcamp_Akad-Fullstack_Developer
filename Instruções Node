@@ -1,0 +1,5 @@
+Abrir o terminal no VS Code (ctrl shift ')
+node -v // mostra qual a versão do Node instalada ou dá erro caso não tenha Node.
+npm -v // versão do NPM ; mesma ideia
+npm install // instala as dependências necessárias. Lembrando: todo código no git não vêm com as pastas de dependências para que fique mais leve. Assim, a pessoa pega o código do git, e instala em seu PC as dependências necessárias com este comando.
+assim, criará uma pasta chamada 'node_modules' no projeto.

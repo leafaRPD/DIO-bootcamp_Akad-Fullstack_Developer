@@ -1,0 +1,30 @@
+                                    Anotações:
+
+Convenção do C#: 
+camelCase para variáveis;
+PascalCase para Classes, Métodos e Propriedades.
+Jamais abreviar os nomes das propriedades. Ex: NomeRepLegalPessoa ao invés de NomeRepresentanteLegalDaPessoa
+O nome do arquivo (Pessoa.cs) deve ter o mesmo nome da Classe definida. Ou seja, o exemplo feito estava fora da convenção (estava PessoaFisica.cs).
+O único caractere especial aceito é o underline _. Os demais darão erro, incluindo o  traço  - .
+
+Usar  tipo de variável  'decimal' para valores monetários, e 'double' e 'float' apenas para dados científicos.
+O 'decimal' é cerca de 10 vezes mais lento que 'double'. 
+
+Para trabalhar com datas:
+    DateTime dataAtual = DateTime.Now; // Classe DateTime criará a variável dataAtual usando o DateTime.Now (classe e método)
+Para adicionar 4 dias à data:
+    DateTime dataAtual = DateTime.Now.AddDays(4);
+Em um formato específico:
+    Console.WriteLine(dataAtual.ToString("dd/MM/YYYY HH:mm"));
+    Console.WriteLine(dataAtual.ToString("dd/MM/YYYY"));
+    
+
+
+                                    Instruções
+Para criar um novo projeto, abra o console e use os comandos:
+    dotnet new console
+
+Para fazer o código rodar:
+    dotnet run
+
+

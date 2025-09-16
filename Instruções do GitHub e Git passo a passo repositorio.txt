@@ -1,0 +1,42 @@
+			instruções git GitHub 
+
+Tem que revisar estas instruções
+
+
+	--> Para criar um projeto no PC, basta abrir uma pasta e criar os arquivos no próprio PC.
+
+	--> Para mandar o repositório do PC pro GitHub pela primeira vez:
+Vá no GitHub e abra um repositório lá, para o qual será mandada a pasta que está no PC.
+
+Abra o terminal (pode ser no Explorer, abrir a pasta, clic com botão direito do mouse e escolher 'Git Bash') para abrir o terminal.
+
+git init
+
+git add .
+
+git commit -m "comentário deste commit"
+
+git branch -M main
+
+git remote add origin <link com endereço do github. Ex: https://github.com/leafaRPD/desafio-do-filipao-da-dio.git>
+
+git push -u origin main
+
+
+	--> Quando o repositório já existe e for atualizar; não é a primeira vez que mandará para o repositório:
+
+git pull origin nome-da-branch // para baixar as alterações mais recentes
+
+git add .
+
+git commit -m "comentário deste commit"
+
+git branch -M main
+
+git push -u origin main
+
+
+	--> Para clonar um repositório do GitHub pro PC:
+
+git clone <link com endereço do github. Ex: https://github.com/leafaRPD/desafio-do-filipao-da-dio.git>
+
