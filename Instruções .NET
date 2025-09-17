@@ -18,6 +18,15 @@ Em um formato específico:
     Console.WriteLine(dataAtual.ToString("dd/MM/YYYY HH:mm"));
     Console.WriteLine(dataAtual.ToString("dd/MM/YYYY"));
     
+Converter formato de variáveis (Cast ou Casting):
+    int a = Convert.ToInt32("5"); // usa o Método ToInt32 da Classe Convert para converter o texto para número.
+    outra forma, usando o Parse:
+    int a = int.Parse("5");
+    decimal.Parse // há vários métodos
+Qual a diferença entre Convert e Parse: é o tratamente com valores nulos (null)
+    Convert: null -> 0
+    Parse: null -> erro "value cannot be null"
+    
 
 
                                     Instruções
