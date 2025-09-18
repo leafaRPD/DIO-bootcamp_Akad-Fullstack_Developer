@@ -94,5 +94,4 @@ Calculadora calc = new Calculadora();
 calc.Somar(3, 4); //vai chamar o método Somar da classe Calculadora, que imprime na tela qual a operação feita e o cálculo
 calc.Potencia(3, 2);
 calc.Seno(30);
-calc.Raiz(27, 3);
 
