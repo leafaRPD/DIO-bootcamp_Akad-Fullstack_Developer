@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Primeiro exemplo .NET")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+11d12bce5213b1112d11c814cd8deec56f8344d3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+049f0046f3f8f01b717220a8e64a6dcd9102f47a")]
 [assembly: System.Reflection.AssemblyProductAttribute("Primeiro exemplo .NET")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Primeiro exemplo .NET")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

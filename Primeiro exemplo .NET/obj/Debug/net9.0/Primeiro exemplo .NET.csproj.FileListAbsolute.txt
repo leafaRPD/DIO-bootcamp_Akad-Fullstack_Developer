@@ -12,3 +12,4 @@ D:\Programação\DIO\bootcamp_AKAD-Fullstack_Developer\Primeiro exemplo .NET\obj
 D:\Programação\DIO\bootcamp_AKAD-Fullstack_Developer\Primeiro exemplo .NET\obj\Debug\net9.0\Primeiro exemplo .NET.pdb
 D:\Programação\DIO\bootcamp_AKAD-Fullstack_Developer\Primeiro exemplo .NET\obj\Debug\net9.0\Primeiro exemplo .NET.genruntimeconfig.cache
 D:\Programação\DIO\bootcamp_AKAD-Fullstack_Developer\Primeiro exemplo .NET\obj\Debug\net9.0\ref\Primeiro exemplo .NET.dll
+D:\Programação\DIO\bootcamp_AKAD-Fullstack_Developer\Primeiro exemplo .NET\obj\Debug\net9.0\Primeiro exemplo .NET.sourcelink.json
