@@ -10,6 +10,15 @@ O único caractere especial aceito é o underline _. Os demais darão erro, incl
 Usar  tipo de variável  'decimal' para valores monetários, e 'double' e 'float' apenas para dados científicos.
 O 'decimal' é cerca de 10 vezes mais lento que 'double'. 
 
+Para imprimir algo na tela (como o 'print' do Python, 'console.log' do JS):
+    Console.WriteLine($""); //$ serve para concatenas variáveis com chaves {}. Exemplo:
+    Console.WriteLine($"Olá, meu nome é {Nome} e tenho {Idade} anos.") // Nome e Idade são variáveis.
+
+Para receber uma informação do usuário (como o 'input' do Python, 'prompt' do JS):
+    Console.WriteLine("digitar uma palavra ou letra");
+    string letra = Console.ReadLine(); // a variável 'letra', do tipo string, receberá o valor que o usuário digitar.
+    
+
 Para trabalhar com datas:
     DateTime dataAtual = DateTime.Now; // Classe DateTime criará a variável dataAtual usando o DateTime.Now (classe e método)
 Para adicionar 4 dias à data:
@@ -26,7 +35,35 @@ Converter formato de variáveis (Cast ou Casting):
 Qual a diferença entre Convert e Parse: é o tratamente com valores nulos (null)
     Convert: null -> 0
     Parse: null -> erro "value cannot be null"
-    
+
+Converter para string:
+    int numero = 5; // declarei a variável 'numero', do tipo int, com valor 5
+    string a = numero.ToString(); declarei que a variável 'a' recebe o valor da variável número, convertido para string via Método ToString()
+    Caminho inverso:
+    string a = "15";
+    int b = Convert.ToInt32(a);
+
+casting implícito: // converção de certos tipos são feitos 'automaticamente', sem o convert ou parse
+    int a = 5; // recebe o valor numérico 5 como inteiro
+    double b = a; // recebe o mesmo 5, como double
+        outro exemplo:
+    int a = 4;
+    long b = a; // tbm faz automaticamente
+        Quando não funciona:
+    long a = 54;
+    int b = a; // não funciona pois o conjunto de valores long é maior que o conj do inteiro. Então precisa fazer o Convert.ToInt32(a)
+
+Para converter com mais segurança:
+Supondo que possa haver um erro de digitação, há como colocar uma opção 'default'. Exemplo:
+    string a = "15-"; // erro de digitação
+    int b = 0; // segunda opção, ou default escolhido
+    int.TryParse(a, out b);
+    Console.WriteLine(b); // imprimirá o 'b', que foi definido previamente como zero.
+        Caso não queira declarar o 'b' previamente, pode-se deixar o default na própria conversão:
+    string a = "15-"; // erro de digitação
+    int.TryParse(a, out int b);
+    Console.WriteLine(b); // imprimirá '0', pois zero é o valor padrão, é o default.
+
 
 
                                     Instruções
@@ -35,5 +72,11 @@ Para criar um novo projeto, abra o console e use os comandos:
 
 Para fazer o código rodar:
     dotnet run
+
+
+
+                                    Como utilizar o debug: (falta eu terminar de escrever estas Instruções)
+Clicar com o mouse no lado esquerda da linha desejada para criar um breakpoint (ponto de parada). Aparecerá uma bolinha (vermelha).
+Apertar F5 (ou clicar no ícone debud), e escolher opção .NET .
 
 
