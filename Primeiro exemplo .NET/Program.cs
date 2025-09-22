@@ -110,44 +110,5 @@ soma += numero;
 Console.WriteLine($"Total da soma dos números digitados é: {soma}");
 
 
-// Construindo um menu interativo
-
-string opcao;
-bool exibirMenu = true;
-
-while (exibirMenu)
-{
-    Console.WriteLine("Digite uma das opções:");
-    Console.WriteLine("1 - Cadastro cliente");
-    Console.WriteLine("2 - Buscar cliente");
-    Console.WriteLine("3 - Apagar cliente");
-    Console.WriteLine("4 - Encerrar");
-
-
-opcao = Console.ReadLine();
-
-switch (opcao)
-    {
-    case "1":
-            Console.WriteLine("Cadastro cliente");
-            break;
-
-    case "2":
-            Console.WriteLine("Buscar cliente");
-            break;
-
-    case "3":
-            Console.WriteLine("Apagar cliente");
-            break;
-
-    case "4":
-            Console.WriteLine("Encerrar");
-            //Environment.Exit(0); // o programa se encerra e, se mais códigos forem implementados após isso, não rodará. Então o mais corretor é trocar por:
-            exibirMenu = false; // assim ele torna o while 'false', o que faz com que encerre o while sem encerrar o programa inteiro.
-            break;
-
-    default:
-            Console.WriteLine("Opção inválida.");
-            break;
-    }
-}
+MenuInterativo menu1 = new MenuInterativo(); //roda a classe MenuInterativo, cria um novo menu chamado menu1 e
+menu1.Exibir(); //faz rodar o menu1
